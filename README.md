@@ -14,3 +14,7 @@
 # Usage
 
 `coin {}`: `{}` -> Name or symbol of crypto currency
+
+# Screenshots
+
+![](./screenshots/001.png)
