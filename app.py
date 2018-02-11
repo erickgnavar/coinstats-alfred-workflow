@@ -27,7 +27,7 @@ def make_item(coin):
     return {
         'uid': coin['rank'],
         'title': '{} - {} - {}'.format(coin['name'], coin['symbol'], coin['price']),
-        'subtitle': 'Marker cap: {}'.format(coin['market_cap']),
+        'subtitle': 'Market cap: {}'.format(coin['market_cap']),
         'type': 'default',
         'icon': {
             'path': './icons/{}.png'.format(coin['symbol'].lower())
